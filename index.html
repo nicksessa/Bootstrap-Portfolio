@@ -22,14 +22,20 @@ h1 {
 	text-shadow: 1px 1px 2px #1e4442;
 }
 
-img {
-    width:200px;
+.profilePic {
+    width:auto;
     height: 200px;
     float:left; 
     margin-right: 20px;
     margin-bottom: 20px;
     box-shadow: 10px 10px 5px gray, -1px 0px 10px gray;
     border-radius: 4px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .container {
@@ -86,9 +92,9 @@ img {
                 <a class="navbar-brand" href="#">Nicholas Sessa</a>
             </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
         </div>
     </nav>
@@ -106,8 +112,9 @@ img {
         </div>  <!-- End of the First Row -->
 
         <hr>  <!-- Add a horizontal line -->
-
-        <img src="images/250px-Flash_Gordon.png" class="rounded float-left">
+        <div class="profilePic">
+            <img src="images/250px-Flash_Gordon.png" class="rounded float-left">
+        </div>
         <div class="MainText">
             <p>1 in principio creavit Deus caelum et terram 2 terra autem erat inanis et vacua et tenebrae super faciem abyssi et spiritus Dei ferebatur super aquas 3 dixitque Deus fiat lux et facta est lux 4 et vidit Deus lucem quod esset bona et divisit lucem ac tenebras 5 appellavitque lucem diem et tenebras noctem factumque est vespere et mane dies unus 6 dixit quoque Deus fiat firmamentum in medio aquarum et dividat aquas ab aquis 7 et fecit Deus firmamentum divisitque aquas quae erant sub firmamento ab his quae erant super firmamentum et factum est ita 8 vocavitque Deus firmamentum caelum et factum est vespere et mane dies secundus 9 dixit vero Deus congregentur aquae quae sub caelo sunt in locum unum et appareat arida factumque est ita 10 et vocavit Deus aridam terram congregationesque aquarum appellavit maria et vidit Deus quod esset bonum</p>
         </div>

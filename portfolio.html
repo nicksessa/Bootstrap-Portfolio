@@ -9,6 +9,7 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <style>
@@ -22,6 +23,18 @@ h1 {
 	text-shadow: 1px 1px 2px #1e4442;
 }
 
+h4 {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+    text-shadow: 1px 1px 2px #1e4442;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
 img {
     width:200px;
     height: 200px;
@@ -31,6 +44,21 @@ img {
     box-shadow: 10px 10px 5px gray, -1px 0px 10px gray;
     border-radius: 4px;
 }
+
+.thumbnail {
+    border: none;
+    color: #4aaaa5;
+}
+
+/* .card-body {
+    position: relative;
+    width: auto;
+     height: 25px;
+    /* margin-top: 120px; */
+	/* background-color: #4aaaa5; 
+    color:white;   
+    border-radius: 4px; 
+} */
 
 .container {
     background-color: white;
@@ -99,9 +127,9 @@ img {
                 <a class="navbar-brand" href="#">Nicholas Sessa</a>
             </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li class="active"><a href="#">Contact</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
         </div>
     </nav>
@@ -120,32 +148,75 @@ img {
 
         <hr>  <!-- Add a horizontal line -->
 <div class="myPics">
-<div class="row justify-content-center">
-	<div class="column">
-    	<img src="/w3images/paris.jpg">
+<div class="row">
+    <div class="col-md-6">
+        <div class="thumbnail">
+        <!-- <img src="/w3images/paris.jpg"> -->
+        <a href="images/FlashAndDale.jpg" target="_blank">
+            <img src="images/FlashAndDale.jpg" alt="FlashAndDale" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title"> Flash and Dale </h4>
+            </div>
+        </a>
+        </div>
     </div>
-	<div class="column justify-content-center">
-    	<img src="/w3images/underwater.jpg">
+    <div class="col-md-6">
+        <div class="thumbnail">
+        <a href="images/FlashAndZarkov.jpg" target="_blank">
+            <img src="images/FlashAndZarkov.jpg" alt="FlashAndZarkov" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title"> Flash and Zarkov </h4>
+            </div>
+        </a>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="thumbnail">
+        <a href="images/Ming.jpg" target="_blank">
+            <img src="images/Ming.jpg" alt="Ming" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title"> Ming </h4>
+            </div>
+        </a>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="thumbnail">
+        <a href="images/OldSchoolFlash.jpg" target="_blank">
+            <img src="images/OldSchoolFlash.jpg" alt="Comic Flash" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title"> Comic Flash </h4>
+            </div>
+        </a>
+        </div>
     </div>
 </div>
 
 <div class="row">
-	<div class="column">
-    	<img src="/w3images/wedding.jpg">
+    <div class="col-md-6">
+        <div class="thumbnail">
+        <a href="images/PrincessAura2.jpg" target="_blank">
+            <img src="images/PrincessAura2.jpg" alt="Princess Aura" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title"> Princess Aura </h4>
+            </div>
+        </a>
+        </div>
     </div>
-	<div class="column">
-    	<img src="/w3images/falls2.jpg">
+    <div class="col-md-6">
+        <div class="thumbnail">
+        <a href="images/PrinceVultan.jpg" target="_blank">
+            <img src="images/PrinceVultan.jpg" alt="Prince Vultan" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title"> Prince Vultan </h4>
+            </div>
+        </a>
+        </div>
     </div>
 </div>
 
-<div class="row">
-	<div class="column">
-    	<img src="/w3images/rocks.jpg">
-    </div>
-	<div class="column">
-    	<img src="/w3images/mountainskies.jpg">
-    </div>
-</div>
 
 </div>  <!-- END container for pictures -->
 
